@@ -6,13 +6,6 @@
 -->
 <div align="center">
 
-<table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg?v=2" width="370" alt="ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
-</tr>
-</table>
-
 ## Beno Goulart
 
 **Full Stack Developer · Java & Spring Boot · Open Source Enthusiast**
@@ -22,7 +15,27 @@
 
 <br>
 
+<table>
+<tr>
+<td valign="top"><img src="./avi-ascii.svg?v=2" width="370" alt="ASCII portrait" /></td>
+<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
+</tr>
+</table>
+
+<!-- GitHub metrics terminal, refreshed daily by the workflow -->
+<table>
+<tr>
+<td>
+<img src="./metrics.svg" width="860" alt="GitHub metrics terminal" />
+</td>
+</tr>
+</table>
+
 <!-- animated contribution graph, refreshed daily by the workflow -->
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
+
+<br>
+
+<br>
 
 </div>

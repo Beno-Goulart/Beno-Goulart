@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<defs>
+<linearGradient id="mbg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#111722"/>
+<stop offset="1" stop-color="#0d1117"/>
+</linearGradient>
+</defs>
+<rect width="860" height="420" rx="12" fill="url(#mbg)"/>
+<rect x="0.5" y="0.5" width="859" height="419" rx="12" fill="none" stroke="#30363d"/>
+<line x1="0" y1="30" x2="860" y2="30" stroke="#30363d"/>
+<circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+<circle cx="36" cy="15" r="5" fill="#ffbd2e"/>
+<circle cx="52" cy="15" r="5" fill="#27c93f"/>
+<text x="430" y="19" fill="#7d8590" font-size="12" text-anchor="middle">Beno-Goulart@github: ~$ git log --oneline</text>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="55" font-size="14" font-weight="700"><tspan fill="#3fb950">Beno-Goulart</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#22d3ee">metrics</tspan><tspan fill="#7d8590">:~# whoami</tspan></text>
+<animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="78" fill="#c9d1d9" font-size="14"><tspan fill="#3fb950" font-weight="700">Beno</tspan> registered=2y, uid=6152, gid=0</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="98" fill="#c9d1d9" font-size="14">  contributed to 12 repositories</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.35s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="118" fill="#c9d1d9" font-size="14">  followed by <tspan fill="#3fb950" font-weight="700">5</tspan> users</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.45s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="148" font-size="14" font-weight="700"><tspan fill="#3fb950">Beno-Goulart</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#22d3ee">metrics</tspan><tspan fill="#7d8590">:~# git status</tspan></text>
+<animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.55s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="171" fill="#58a6ff" font-size="14" font-weight="700">Recent activity</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.65s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="191" fill="#c9d1d9" font-size="14">  <tspan fill="#3fb950" font-weight="700">847</tspan> commits</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.70s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="211" fill="#c9d1d9" font-size="14">  <tspan fill="#3fb950" font-weight="700">12</tspan> pull requests reviewed</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.75s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="231" fill="#c9d1d9" font-size="14">  <tspan fill="#3fb950" font-weight="700">23</tspan> pull requests opened</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.80s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="251" fill="#c9d1d9" font-size="14">  <tspan fill="#3fb950" font-weight="700">4</tspan> issues opened</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.85s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="271" fill="#c9d1d9" font-size="14">  <tspan fill="#3fb950" font-weight="700">18</tspan> issue comments</text>
+<animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.90s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="301" font-size="14" font-weight="700"><tspan fill="#3fb950">Beno-Goulart</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#22d3ee">metrics</tspan><tspan fill="#7d8590">:~# locate</tspan></text>
+<animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.95s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="324" fill="#ffa657" font-size="14" font-weight="700">JAVA        </text>
+<text x="130" y="324" fill="#c9d1d9" font-size="14">[#################         ]</text>
+<text x="350" y="324" fill="#7d8590" font-size="14">68.42%</text>
+<animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.00s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="344" fill="#ffa657" font-size="14" font-weight="700">SPRING      </text>
+<text x="130" y="344" fill="#c9d1d9" font-size="14">[#####                   ]</text>
+<text x="350" y="344" fill="#7d8590" font-size="14">18.31%</text>
+<animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.05s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="364" fill="#ffa657" font-size="14" font-weight="700">TYPESCRIPT  </text>
+<text x="130" y="364" fill="#c9d1d9" font-size="14">[##                      ]</text>
+<text x="350" y="364" fill="#7d8590" font-size="14"> 6.54%</text>
+<animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.10s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+<g opacity="0" transform="translate(0,5)">
+<text x="20" y="394" fill="#7d8590" font-size="12">Connection reset by 90.212.32.117</text>
+<animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.4s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+</svg>
