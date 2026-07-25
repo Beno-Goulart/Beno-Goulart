@@ -21,15 +21,15 @@ KEY_X = PAD
 VAL_X = PAD + 92
 LINE_H = 20.5
 
-BG = "#0d1117"
-BG2 = "#111722"
-FRAME = "#30363d"
-MUTED = "#7d8590"
-INK = "#c9d1d9"
-KEY = "#ffa657"      # orange keys (matches Andrew)
-SECTION = "#58a6ff"  # blue section headers
-GREEN = "#3fb950"
-ACCENT = "#22d3ee"
+BG = "#11131A"
+BG2 = "#151923"
+FRAME = "#2A2F3A"
+MUTED = "#6E7078"
+INK = "#D6D6D8"
+KEY = "#D9A15A"      # orange keys
+SECTION = "#5B8CFF"  # blue section headers
+GREEN = "#73BF69"
+ACCENT = "#5B8CFF"
 
 # ===========================================================================
 #  EDIT THIS  -- your info panel. It re-lays-out automatically; if it gets too
@@ -80,7 +80,7 @@ def rise(inner, i):
 
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-    f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
+    f'font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
     '<defs>'
     f'<linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">'
     f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient></defs>',

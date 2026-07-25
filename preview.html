@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview - Perfil GitHub</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0d1117;
+            color: #e6edf3;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .container { max-width: 960px; width: 100%; }
+        .profile-header { text-align: center; margin-bottom: 24px; }
+        .profile-header h1 { font-size: 26px; font-weight: 600; margin-bottom: 8px; }
+        .profile-header p { color: #8b949e; font-size: 16px; }
+        .badges { display: flex; gap: 8px; justify-content: center; margin-bottom: 24px; }
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+        }
+        .badge-linkedin { background: #0A66C2; }
+        .badge-credly { background: #FF6B35; }
+        .section { margin-bottom: 32px; }
+        .note { text-align: center; color: #8b949e; font-size: 12px; margin-top: 8px; font-style: italic; }
+
+        .heatmap {
+            display: flex;
+            gap: 3px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .heatmap-day { width: 11px; height: 11px; border-radius: 2px; }
+        .l1 { background: #9be9a8; }
+        .l2 { background: #40c463; }
+        .l3 { background: #30a14e; }
+        .l4 { background: #216e39; }
+        .empty { background: #ebedf0; }
+
+        .terminal {
+            background: linear-gradient(#111722 0, #0d1117 100%);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            width: 860px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            overflow: hidden;
+        }
+        .terminal-bar {
+            display: flex;
+            align-items: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #30363d;
+        }
+        .terminal-dot { width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; }
+        .terminal-dot.red { background: #ff5f56; }
+        .terminal-dot.yellow { background: #ffbd2e; }
+        .terminal-dot.green { background: #27c93f; }
+        .terminal-title { color: #7d8590; font-size: 12px; margin-left: auto; margin-right: auto; }
+        .terminal-body { padding: 16px 20px; }
+        .terminal-body .line { margin-bottom: 2px; font-size: 14px; line-height: 1.5; }
+        .terminal-body .prompt { color: #39d2c0; font-weight: 700; }
+        .terminal-body .location { color: #58a6ff; }
+        .terminal-body .cmd { color: #c9d1d9; }
+        .terminal-body .label { color: #ffa657; font-weight: 700; }
+        .terminal-body .value { color: #e6edf3; font-weight: 700; }
+        .terminal-body .text { color: #c9d1d9; }
+        .terminal-body .dim { color: #7d8590; }
+        .terminal-body .bar { color: #c9d1d9; }
+        .terminal-body .empty-line { height: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <h1>Beno Goulart</h1>
+            <p>Full Stack Developer · Java & Spring Boot · Open Source Enthusiast</p>
+        </div>
+
+        <div class="badges">
+            <a href="#" class="badge badge-linkedin">LinkedIn</a>
+            <a href="#" class="badge badge-credly">Credly</a>
+        </div>
+
+        <div class="section">
+            <div class="heatmap">
+                <div class="heatmap-day l1"></div><div class="heatmap-day l2"></div>
+                <div class="heatmap-day l3"></div><div class="heatmap-day l1"></div>
+                <div class="heatmap-day l4"></div><div class="heatmap-day l1"></div>
+                <div class="heatmap-day l3"></div><div class="heatmap-day l3"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day l1"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day l1"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day empty"></div>
+                <div class="heatmap-day l2"></div><div class="heatmap-day l3"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day l4"></div>
+                <div class="heatmap-day l2"></div><div class="heatmap-day l1"></div>
+                <div class="heatmap-day l3"></div><div class="heatmap-day empty"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day l2"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day l3"></div>
+                <div class="heatmap-day l1"></div><div class="heatmap-day empty"></div>
+            </div>
+            <p class="note">* Gráfico atualizado diariamente pelo workflow</p>
+        </div>
+
+        <div class="section">
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot yellow"></div>
+                    <div class="terminal-dot green"></div>
+                    <span class="terminal-title">terminal</span>
+                </div>
+                <div class="terminal-body">
+<div class="line"><span class="prompt">Beno-Goulart@metrics:~# </span><span class="cmd">whoami</span></div>
+<div class="line"><span class="value">Beno</span> <span class="text">registered=2y, uid=6152, gid=0</span></div>
+<div class="line"><span class="text">  contributed to 12 repositories</span></div>
+<div class="line"><span class="text">  followed by</span> <span class="value">5</span> <span class="text">users</span></div>
+<div class="empty-line"></div>
+<div class="line"><span class="prompt">Beno-Goulart@metrics:~# </span><span class="cmd">git status</span></div>
+<div class="line"><span class="value">Recent activity</span></div>
+<div class="line"><span class="text">  </span><span class="value">847</span> <span class="text">commits</span></div>
+<div class="line"><span class="text">  </span><span class="value">12</span> <span class="text">pull requests reviewed</span></div>
+<div class="line"><span class="text">  </span><span class="value">23</span> <span class="text">pull requests opened</span></div>
+<div class="line"><span class="text">  </span><span class="value">4</span> <span class="text">issues opened</span></div>
+<div class="line"><span class="text">  </span><span class="value">18</span> <span class="text">issue comments</span></div>
+<div class="empty-line"></div>
+<div class="line"><span class="prompt">Beno-Goulart@metrics:~# </span><span class="cmd">locate</span></div>
+<div class="line"><span class="label">JAVA        </span> <span class="bar">[#################         ]</span> <span class="dim">68.42%</span></div>
+<div class="line"><span class="label">SPRING      </span> <span class="bar">[#####                   ]</span> <span class="dim">18.31%</span></div>
+<div class="line"><span class="label">TYPESCRIPT  </span> <span class="bar">[##                      ]</span> <span class="dim"> 6.54%</span></div>
+<div class="empty-line"></div>
+<div class="line"><span class="dim">Connection reset by 90.212.32.117</span></div>
+                </div>
+            </div>
+            <p class="note">* Métricas reais atualizadas diariamente pelo workflow</p>
+        </div>
+    </div>
+</body>
+</html>
